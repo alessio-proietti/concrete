@@ -66,6 +66,13 @@ To install FFTW on a debian-based distribution, you can use the following comman
 sudo apt-get update && sudo apt-get install -y libfftw3-dev
 ```
 
+
+To install FFTW on a fedora-based amd64 distribution, you can use the following command:
+
+```bash
+sudo dnf update && sudo dnf install -y fftw-devel.x86_64
+```
+
 # Credits
 
 This library uses several dependencies and we would like to thank the contributors of those
